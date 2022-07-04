@@ -1,7 +1,7 @@
 # Fresh + Atomico webcomponents
 
-This is an example of Atomico web components taking advantage of Fresh's
-support for Preact, thanks to the @atomico/react package things
+This is an example of [Atomico webcomponents](https://github.com/atomicojs/atomico) taking advantage of Fresh's
+support for Preact, thanks to the [@atomico/react](https://github.com/atomicojs/react) package things
 magically work even with SSR
 
 ### Usage
