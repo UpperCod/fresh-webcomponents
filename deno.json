@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts --reload"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM", "DOM.Iterable"]
+  }
+}
