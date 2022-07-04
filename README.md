@@ -13,3 +13,7 @@ deno task start
 ```
 
 This will watch the project directory and restart as necessary.
+
+## Todo
+
+1. [ ] esm.sh no resuelve correctamente el modulo @atomico/react, this does not associate the types

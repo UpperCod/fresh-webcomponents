@@ -21,7 +21,7 @@ export default function Home() {
         support for Preact, thanks to the @atomico/react package things
         magically work even with SSR
       </p>
-      <Component count={3}></Component>
+      <Component count={100}></Component>
       <script src="/polyfill.js"></script>
     </div>
   );

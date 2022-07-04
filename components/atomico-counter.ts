@@ -3,8 +3,8 @@ import { c, html, css, useProp } from "atomico";
 function component() {
   const [count, setCount] = useProp<number>("count");
 
-  const increment = () => setCount((count) => count + 1);
-  const decrement = () => setCount((count) => count - 1);
+  const increment = () => setCount((count) => (count || 0) + 1);
+  const decrement = () => setCount((count) => (count || 0) - 1);
 
   return html`<host shadowDom>
     <button onclick=${increment}>Increment</button>
