@@ -1,5 +1,4 @@
 /** @jsx h */
-import "atomico/ssr/load";
 import "@atomico/react/proxy";
 import { h } from "preact";
 import Component from "../islands/Atomico.tsx";
